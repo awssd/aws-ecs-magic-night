@@ -13,7 +13,7 @@ Challenge
 
 1. Create an HTTP server with the route `GET:magicnight` that should
    return a JSON response as: `{ "response": "hello magic night!" }`
-   (Hint: use pre-made [Python's server](../magicnight-app/server.py))
+   (Hint: use pre-made [Python's server](magicnight-app/server.py))
 
 2. Create a Docker image with your HTTP server. (Hint: If you used the
    Python server, to create a custom Docker Image that has Python 2.7
