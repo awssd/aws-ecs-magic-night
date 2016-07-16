@@ -16,8 +16,8 @@ Challenge
    (Hint: use pre-made [Python's server](magicnight-app/server.py))
 
 2. Create a Docker image with your HTTP server. (Hint: If you used the
-   Python server, to create a custom Docker Image that has Python 2.7
-   on it and your REST server and its dependencies there is an
+   Python server, to create a [custom Docker Image](magicnight-app/Dockerfile)) that has Python 2.7,
+   your REST server, and its [dependencies](magicnight-app/requirements.txt) there is an
    official Python 2.7 image on Docker Hub that you can use as
    baseline).
 
